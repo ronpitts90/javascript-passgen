@@ -1,0 +1,20 @@
+.content {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+    padding: 20px ;
+    width: 100%;
+}
+
+#display {
+    width: 100%;
+}
+
+#slider {
+    width: 100% ;
+}
+
+#length {
+    display: inline-block;
+    width: 100px;
+}
