@@ -6,39 +6,33 @@
     <title>Password Creator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Homework 3</a>
-    </nav> 
-
     <div class="container">
         <div class="row">
-            <div class="col-md-8 mx-auto">
-                <div class="content">
-                    <h3>Password Generator</h3>
-                    <br/>
-                    <input type="text" id="display">
-                    <br/> 
-                    <input type="range" min="8" max="128" name="slider" id="slider">
-                    <br/>
-                    <button onclick="generate()">Create Password</button>
-                    <button onclick="">Copy to Clipboard</button>
-                    <div id="length"></div>
-                </div> 
+            <div class="col-md-12">
+                    <header>
+                        <h1>Password Generator</h1>
+                    </header>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>
+                                Upon clicking u will get prompts 
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <textarea id="password" placeholder="Your Secure Password" aria-label="Generated Password">
 
-                <div class="oldpass">
-                    <b>Previous Passwords</b>
-                    <br/>
-                    <div id="lastpassword"></div>
+                            </textarea>
+                        </div>
+                        <div class="card-footer">
+                            <button id="generate" class="btn">Generate Password</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
     </div>
+   <script src="script.js"></script>
 
-
-
-    <script src="script.js"></script> 
 </body>
 </html>

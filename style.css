@@ -1,4 +1,4 @@
-.content {
+.container{
     margin-top: 25px;
     margin-bottom: 20px;
     background-color: cadetblue;
@@ -6,15 +6,16 @@
     width: 100%;
 }
 
-#display {
-    width: 100%;
+.card {
+text-align: center;
+
 }
 
-#slider {
-    width: 100% ;
+h1 {
+    text-align: center;
 }
 
-#length {
-    display: inline-block;
-    width: 100px;
+.btn {
+    background-color: crimson;
+    color: floralwhite;
 }
