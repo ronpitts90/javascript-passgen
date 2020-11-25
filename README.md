@@ -35,8 +35,11 @@ This app uses HTML,CSS, and Javascript.
 ## Directions
 On the site simply type in what type attributes you would like
 
+## Deployed Site 
+https://ronpitts90.github.io/javascript-passgen/
+
 ## Github link
-https://github.com/ronpitts90/budgetrack
+https://github.com/ronpitts90/javascript-passgen
 
 
 
